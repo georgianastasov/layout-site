@@ -1,0 +1,85 @@
+@media ( max-width: 600px ){
+    html{
+        font-size: 14px;
+    }
+
+    .site-header{
+        display: block;
+    }
+
+    .site-header .site-title{
+        margin-bottom: 1em;
+    }
+
+    .site-header .site-nav ul{
+        display: block;
+    }
+
+    .site-header .site-nav ul li{
+        text-align: center;
+    }
+
+    .site img{
+        margin: 0 3em 0 3em; 
+    }
+
+    .details{
+        padding: 2em 2em 0 2em;
+    }
+
+    .card{
+        flex: 0 0 47.5%;
+    }
+
+    .card:nth-child(odd){
+        margin-left: 0.5em;
+    }
+
+    .card .media img{
+        top: 0;
+        left: 0;
+        width: 160%;
+    }
+
+    .mid .subscribe{
+        padding: 0 2em 2em;
+    }
+
+    .mid .subscribe button{
+        margin: 0;
+    }
+
+    .site-footer{
+        justify-content: center;
+    }
+    
+    .site-footer .info{
+        flex: 1 0 100%;
+    }
+    
+    .site-footer .sidebar{
+        flex: 1 0 100%;
+    }
+    
+    .site-footer .links{
+        flex: 1 0 100%;
+        padding-left: 0;
+    }
+}
+
+@media ( max-width: 800px ) and ( min-width: 700px){
+    .card + .card{
+        margin-left: 0.4em;
+    }
+    
+    .site-footer div{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media ( max-width: 700px ){
+    .card + .card{
+        margin-left: 0.4em;
+    }
+}

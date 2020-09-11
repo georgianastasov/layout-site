@@ -1,0 +1,59 @@
+.site-main{
+    max-width: 53em;
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-title{
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-title h1{
+    border-bottom: 2px solid black;
+    padding-bottom: 0.2em;
+    margin: 0.5em 0 1em 0;
+}
+
+.card{
+    flex: 0 0 32%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.card .media{
+    display: inline-block;
+    width: 6em;
+    height: 6em;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.card .media img{
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160%;
+    height: auto;
+}
+
+.card:nth-child(5) .media img{
+    width: 120%;
+}
+
+.card:nth-child(7) .media img{
+    width: 120%;
+}
+
+
+.card p{
+    flex: 0 0 100%;
+    text-align: center;
+}

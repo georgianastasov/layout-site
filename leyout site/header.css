@@ -1,0 +1,48 @@
+.site-header{
+    display: flex;
+    align-items: center;
+}
+
+.site-title .title a{
+    display: inline-block;
+    text-decoration: none;
+    color: orange;
+}
+
+.site-title .caption{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.site-title .title a:hover{
+    border-radius: 0.2em;
+    padding: 0.1em;
+}
+
+.site-nav{
+    margin-left: auto;
+}
+
+.site-nav ul{
+    display: flex;
+}
+
+.site-nav ul li{
+    display: block;
+    list-style: none outside;
+    padding-left: 0.5em;
+}
+
+.site-nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: orange;
+    padding: 0.5em;
+    background-color: rgb(255, 246, 230);
+    border-radius: 0.2em;
+}
+
+.site-nav ul li a:hover{
+    border: 2px solid orange;
+    border-radius: 0.2em;
+}

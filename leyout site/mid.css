@@ -1,0 +1,35 @@
+.mid{
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mid-title h1{
+    border-bottom: 2px solid black;
+    padding-bottom: 0.2em;
+    margin: 0.5em 0 1em 0;
+    flex: 0 0 100%;
+}
+
+.subscribe{
+    flex: 0 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.subscribe input{
+    padding: 0.5em;
+}
+
+.subscribe button{
+    padding: 0.5em 1em;
+    margin-left: 1em;
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    border: 1px solid black;
+    border-radius: 0.2em;
+}

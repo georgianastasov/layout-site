@@ -1,0 +1,68 @@
+.site-footer{
+    max-width: 65em;
+    margin: 3em 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #CCC;
+}
+
+.site-main{
+    max-width: 53em;
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-footer div{
+    flex: 0 1 33%;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.info .title{
+    color: orange;
+}
+
+.info p{
+    font-weight: bold;
+}
+
+.sidebar div{
+    display: flex;
+}
+
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+}
+
+.sidebar ul li{
+    display: block;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar ul li a:hover{
+    color: orange;
+}
+
+.links ul li{
+    display: block;
+}
+
+.links p{
+    font-weight: bold;
+}
+
+.links p:hover{
+    color: orange;
+}
+
+.links i{
+    padding-right: 0.5em;
+    color: orange;
+}
